@@ -1,0 +1,19 @@
+.tenant_info{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    padding-left: 1rem;
+    padding-top: 5rem;
+}
+
+.tenant_info>h1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.tenant_body{
+    padding: 1rem;
+
+}

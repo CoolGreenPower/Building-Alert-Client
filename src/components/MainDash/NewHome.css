@@ -1,0 +1,197 @@
+.NewHome{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-height: fit-content;
+} 
+
+.alerts-section {
+  text-align: center;
+  padding: 30px;
+  background-color: #ffffff; /* Change as per your design */
+}
+
+.alerts-header {
+  background-color: #C4D5C5; /* Change as per your design */
+  display: inline-block;
+  padding: 30px 30px;
+  width: 750px;
+  height: 100px;
+  font-size: 18px;
+  border-radius: 20px 20px 0px 0px; /* Adjust as needed */
+  margin-bottom: 20px;
+}
+
+.alerts-header h2{
+  font-weight: bold;
+}
+
+.alerts-container {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 30px;
+  gap: 80px;
+}
+
+.alert-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  gap: 20px;
+}
+
+.alert-icon {
+  justify-self: center;
+  width: 100px;
+  height: 100px; /* Adjust as needed */
+  margin-bottom: 10px;
+}
+
+.alert-info h3 {
+  width: 150px;
+  align-self: center;
+  font-size: 25px; /* Adjust as needed */
+  font-weight: bold;
+  background-color: #ffffff;
+}
+.alert-info{
+  align-self: center;
+  font-size: 15px; /* Adjust as needed */
+  font-weight: bold;
+  background-color: #ffffff;
+}
+.alert-status {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between 'New' and 'In Process' */
+}
+
+.new-alert,
+.in-process-alert {
+  padding: 5px;
+  font-size: 30px; /* Adjust as needed */
+  border-radius: 50%; /* Adjust as needed */
+  color: #fff;
+}
+
+.new-alert {
+  background-color: #f44336; /* Change as per your design */
+}
+
+.in-process-alert {
+  background-color: #5cff3b; /* Change as per your design */
+}
+.benefit-tracker-section {
+  align-self: center;
+  text-align: center;
+  width: 750px;
+  background-color: #ffffff; /* Adjust to match your design */
+  border-radius: 20px 20px 0px 0px; /* Adjust as needed */
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 60px;
+}
+
+.benefit-tracker-header {
+  background-color: #C4D5C5; /* Adjust to match your design */
+  display: inline-block;
+  padding: 30px 30px;
+  width: 100%;
+  height: 100px;
+  font-size: 18px;
+  border-radius: 20px 20px 0px 0px; /* Adjust as needed */
+  margin-bottom: 20px;
+}
+
+.benefit-tracker-header h2{
+  font-weight: bold;
+}
+
+.benefit-tracker-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px 20px 0px 0px; /* Adjust as needed */
+  gap: 20px;
+}
+
+.benefit-tracker-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.benefit-tracker-card img {
+  width: 170px; /* Ensures the image is responsive and fits the container */
+  height: 110px; /* Maintains aspect ratio */
+}
+
+.benefit-tracker-card p {
+  margin-left: -40px;
+  margin-top: 10px;
+  width: 56px;
+  font-size: 22px; /* Adjust to match your design */
+  font-weight: bold;
+}
+.messages-notifications-section {
+  text-align: center;
+  align-self: center;
+  width: 750px;
+  background-color: #ffffff; /* Adjust to match your design */
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 40px;
+}
+
+.messages-notifications-header {
+  background-color: #C4D5C5; /* Adjust to match your design */
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+  padding: 30px 30px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.messages-notifications-header h2{
+  font-weight: bold;
+}
+
+
+.messages-notifications-container {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.notification-card {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  position: relative; /* For positioning the notification badge */
+}
+
+.notification-card img {
+  width: 120px; /* Ensures the image is responsive and fits the container */
+  height: auto; /* Maintains aspect ratio */
+  margin-top: 30px;
+}
+
+.notification-card p {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 25px; /* Adjust to match your design */
+}
+
+.notification-badge {
+  background-color: #f44336; /* Red color for the badge */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%; /* Makes the badge circular */
+  position: absolute; /* Position the badge over the icon */
+  top: 10px ;
+  font-size: 20px; /* Adjust to match your design */
+  min-width: 20px; /* Ensure the badge is not too small */
+  text-align: center;
+}

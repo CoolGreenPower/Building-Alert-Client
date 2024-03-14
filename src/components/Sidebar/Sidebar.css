@@ -1,0 +1,101 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 300px;
+  padding-top: 4rem;
+  transition: all 300ms ease;
+  overflow-y: scroll;
+}
+
+
+.logo {
+  height: 5rem;
+  display: flex;
+  font-weight: bold;
+  font-size: 15px;
+  /* gap: .5rem; */
+  align-items: center;
+  justify-content: center;
+  height: 3%;
+}
+
+.logo>img {
+  /* margin-left: 2rem; */
+  width: 6rem;
+  height: 6rem;
+}
+
+.logo>span>span {
+  color: #07502d;
+}
+
+/* menu */
+
+/* menu */
+.menu {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  height: 2.5rem;
+  margin-left: 2rem;
+  position: relative;
+  transition: all 300ms ease;
+  border-radius: 0.7rem;
+  font-size: 14px;
+  /* text-decoration: none !important; */
+}
+
+.menuItem:hover {
+  cursor: pointer;
+}
+
+.menu .menuItem:last-child {
+  /* position: absolute;   May again need to change */
+
+  margin-top: auto;
+  bottom: 2.3rem;
+  width: 100%;
+}
+
+.scrollbar {
+  overflow-y: scroll;
+}
+
+.active {
+  background: var(--activeItem);
+  margin-left: 0;
+}
+
+.active::before {
+  content: "";
+  width: 8px;
+  height: 100%;
+  background: #07502d;
+  margin-right: calc(1rem - 8px);
+}
+
+.bars {
+  display: none;
+}
+
+.profile {
+  position: fixed;
+  right: 2rem;
+  top: 2rem;
+  display: flex;
+  background: whitesmoke;
+  font-size: 2.7rem !important;
+  padding: 5px !important;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 12;
+  color: #07502d;
+}

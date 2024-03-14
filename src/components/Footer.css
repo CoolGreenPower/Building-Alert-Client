@@ -1,0 +1,32 @@
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f8f8f8; /* Your background color */
+    padding: 10px 0;
+    bottom: 0;
+    margin-right: -10px;
+    height: 200px;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1); /* subtle shadow at the top */
+  }
+  
+  .nav-item {
+    text-align: center;
+    text-decoration: none;
+    color: #5C623D;
+    margin-bottom: 10px;
+  }
+  
+  .nav-item img {
+    display: block;
+    margin: 0 auto; /* Center align the image */
+    width: 90px; /* Your desired size */
+    height: auto;
+  }
+  
+  .nav-item span {
+    display: block;
+    font-size: 25px; /* Your desired size */
+  }
+  

@@ -1,0 +1,22 @@
+.alerthistory {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    padding-left: 1rem;
+    padding-top: 5rem;
+    color: #07502d;
+     
+}
+
+.alerthistory>h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.alerthistory .MuiAccordion-root {
+    background-color: white;
+    color: #07502d;
+  }
+  

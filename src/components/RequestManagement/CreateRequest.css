@@ -1,0 +1,12 @@
+.properties {
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+
+@media (max-width: 768px) {
+    .baappbar {
+        display: none;
+    }
+
+}

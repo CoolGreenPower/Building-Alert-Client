@@ -1,0 +1,81 @@
+.HomeDash {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: ; */
+  /* justify-content: space-evenly; */
+  background-color: white;
+  padding: 1rem;
+}
+
+.HomeDash>h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divHeader {
+  border-bottom: 2px solid #07502d;
+  color: #07502d;
+  padding-bottom: 0.5rem;
+}
+
+.accordionContainer {
+  margin-top: 1rem;
+  max-height: 170px;
+  /* adjust this value to suit your needs */
+  overflow-y: auto;
+}
+
+.sectionHeading {
+  position: relative;
+  z-index: 1;
+  background: white;
+  display: inline-block;
+  padding: 0 10px;
+  margin-top: -10px;
+}
+
+.alertsContainer,
+.requestsContainer {
+  /* border: 1px solid #07502d; */
+  padding-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.sectionHeadingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sectionHeading {
+  background: white;
+  padding: 0 10px;
+  margin-top: -10px;
+}
+
+
+@media screen and (max-width:768px) {
+  .title {
+    display: none;
+  }
+
+  .HomeDash {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: ; */
+    /* justify-content: space-evenly; */
+    background-color: white;
+    padding: 1rem;
+    padding-top: 4rem;
+  }
+
+  .accordionContainer {
+    margin-top: 1rem;
+    max-height: 150px;
+    /* adjust this value to suit your needs */
+    overflow-y: auto;
+  }
+
+}

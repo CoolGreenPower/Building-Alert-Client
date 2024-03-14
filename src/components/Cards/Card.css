@@ -1,0 +1,84 @@
+.CompactCard{
+    display: flex;
+    /* flex-direction: column; */
+    flex: 1;
+    height: 11rem !important;
+    border-radius: .7rem;
+    color: black;
+    cursor: pointer;
+    padding: 2rem;
+    border: 1px solid #07502d;
+
+}
+
+.radialBar{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.CircularProgressbar{
+    width: 4rem !important;
+    overflow: visible;
+}
+
+.CircularProgressbar-path{
+    stroke:#07502d!important;
+    stroke-width: 12px!important;
+    filter: drop-shadow(2px 2px 2px #07502d);
+}
+
+.CircularProgressbar-trail{
+    /* make it none to remove the remaining part of the bar display: none; */
+}
+
+
+.CircularProgressbar-text{
+    fill: #07502d!important;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.radialBar > span {
+    font-size:px;
+    font-weight: bold;
+  }
+
+
+.details{
+    flex: 1;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; /* adjust this as needed */
+
+
+}
+
+.statusLines {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* adjust this as needed */
+  }
+
+.details>span:nth-child(2){
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .CompactCard {
+      height: auto; /* adjust as needed */
+      width: 80vw;
+      padding: 1rem; /* adjust as needed */
+    }
+  
+    .CircularProgressbar {
+      width: 3rem !important; /* adjust as needed */
+    }
+  
+    /* Add more rules for other elements as needed... */
+  }

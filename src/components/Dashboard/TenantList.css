@@ -1,0 +1,31 @@
+.tenantList{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    padding-left: 1rem;
+    padding-top: 5rem;
+}
+
+.tenantList >h1{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.tenantContainer{
+    max-height: calc(100vh - 300px); /* adjust as needed */
+    overflow-y: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .tenantContainer {
+      max-height: calc(100vh - 300px); /* adjust as needed */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .tenantContainer {
+      max-height: calc(100vh - 300px); /* adjust as needed */
+    }
+  }

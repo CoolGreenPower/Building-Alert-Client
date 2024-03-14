@@ -1,0 +1,33 @@
+.sensor{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    padding-left: 1rem;
+    padding-top: 5rem;
+}
+
+.sensor>h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sensors_body {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+  }
+
+  .sensorDetailsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .sensorItemsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  

@@ -1,0 +1,82 @@
+.sensor-details {
+    width: 100%;
+    max-height: 500px; /* adjust to desired max-height */
+    overflow-y: auto; 
+  }
+
+  @media (max-width: 768px) {
+    .sensor-details {
+      max-height: 500px;
+    }
+  }
+
+  @media screen and (max-width:1200px){
+    .sensor-details {
+        max-height: 800px;
+      }
+}
+  
+  .sensor-item {
+    position: relative;
+    margin: 10px 0;
+  }
+  
+  .sensor-item.expanded {
+    border: 1px solid #07502d;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #d9f9d9;
+    /* transition: all 0.3s ease-in-out; */
+  }
+  
+  .sensor-details-expanded {
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  }
+  
+  .sensor-item.expanded .sensor-details-expanded {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sensor-image {
+    width: 100%; /* ensure the image is responsive */
+    max-width: 150px; /* cap the max width of the image */
+    height: auto; /* maintain the aspect ratio of the image */
+    object-fit: cover;
+    mix-blend-mode: multiply ;
+  }
+  
+  .sensor-details-buttons {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: flex-start; */
+  padding-right: 2rem;
+  gap: 5px;
+  }
+  
+  .sensor-details-close {
+    cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+    color: black;
+  }
+  
+  .sensor-button {
+    background-color: #07502d !important;
+    color: #ffffff !important;
+    /* padding: 5px 10px; */
+    font-size: 8px !important;
+    border-radius: 100px !important;
+    margin: 10px 0;
+  }
+
+  .sensor-button:hover {
+    background-color: white !important ;
+    color: #07502d !important;
+  }

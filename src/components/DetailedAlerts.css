@@ -1,0 +1,16 @@
+tr:focus {
+    background-color: #f3f4f6 !important;
+
+    transition: all .1s linear !important;
+    /* border: 1px #cbd5e1 solid !important; */
+    
+}
+
+tr {
+    transition: all .1s linear !important;
+}
+
+.slideUp{
+    transform: translateY(-25px);
+    transition: all .3s linear !important;
+}

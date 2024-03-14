@@ -1,0 +1,14 @@
+.notification{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    padding-left: 1rem;
+    padding-top: 5rem;
+}
+
+.notification>h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

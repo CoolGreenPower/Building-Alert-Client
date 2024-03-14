@@ -1,0 +1,19 @@
+.contractor_info{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+
+.contractor_info>h1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contractor_body{
+    padding: 1rem;
+
+}

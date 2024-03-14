@@ -1,0 +1,62 @@
+.allalerts {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-top: 4rem;
+}
+
+.allalerts>h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alertsTable {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 500px;
+    /* adjust this to the maximum height you want */
+    overflow-y: auto;
+}
+
+.tableHeader {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.tableHeader>h6 {
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.tableHeader>h6:last-child {
+    flex-basis: 50%;
+}
+
+.accordionColumn {
+    flex-basis: 25%;
+    text-align: center;
+    font-size: 12px;
+    /* adjust to desired font size */
+}
+
+.accordionColumn:last-child {
+    flex-basis: 50% !important;
+}
+
+@media (max-width: 768px) {
+    .accordionColumn {
+        flex-basis: 50%;
+        /* adjust as per your requirements */
+        margin-bottom: 10px;
+    }
+
+    .accordionColumn:last-child {
+        flex-basis: 100% !important;
+    }
+}

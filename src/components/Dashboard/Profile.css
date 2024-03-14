@@ -1,0 +1,80 @@
+/* Profile.css */
+.user_profile {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    padding-left: 1rem;
+    padding-top: 5rem;
+
+    
+  }
+
+  .user_profile>h1{
+    /* border-bottom: 1px solid black; */
+  }
+  
+  .profile_head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #07502d !important;
+
+    padding-top: 2rem;
+  }
+  
+  .profile_head h4 {
+    font-size: 1.5rem;
+  }
+  
+  .profile_body ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .profile_body ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  .profile_body ul li a {
+    text-decoration: none;
+    color: #07502d !important;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .profile_body{
+    padding-top: 2rem;
+  }
+  
+  /* @media (max-width: 600px) {
+    .profile_head h4 {
+      font-size: 1.2rem;
+    }
+  
+    .profile_head .MuiAvatar-root {
+      width: 46px;
+      height: 46px;
+    }
+  }
+   */
+
+
+@media screen and (max-width:1200px){
+    .user_profile{
+        justify-content: flex-start;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width:768px){
+
+    .user_profile{
+        /* align-items: center; */
+    }
+
+}

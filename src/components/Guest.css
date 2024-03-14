@@ -1,0 +1,257 @@
+/* .guest {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.guest__form {
+
+    display: grid;
+    /* border-radius: 2rem; */
+    /* background-color: white; */
+    /* opacity: .4; */
+    /* overflow: hidden;
+    grid-template-columns: auto; */
+    /* gap: 15px; */
+    /* justify-content: center; *
+    align-items: center;
+
+}
+
+.form_head {
+    font-weight: bold !important;
+}
+
+.form_light {
+    font-weight: lighter !important;
+}
+
+.guest_head {
+    border-bottom: 1px solid #07502d;
+}
+
+.guest_btn {
+    background-color: white;
+    color: #07502d !important;
+    border: 1px solid #07502d !important;
+    border-radius: 100px !important;
+}
+
+.guestRadio .MuiSvgIcon-root {
+    fill: #07502d !important;
+}
+
+.guestRadio.Mui-checked .MuiSvgIcon-root {
+    fill: #07502d !important;
+}
+
+
+@media screen and (max-width:768px) {
+
+    .guest {
+        grid-template-columns: 1fr;
+    }
+
+    .guest__form::-webkit-scrollbar {
+        display: none;
+    }
+
+} */
+/* CreateReport.css */
+/* CreateReport.css */
+.create-report {
+  flex-direction: column;
+    display: flex;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* Set the background to white or any color that matches your design */ /* Set a max-width to simulate a mobile screen or use media queries */
+    color: #333; /* Text color */
+  }
+  
+  .headerr {
+    background-color: #C4D5C5; /* Update with the actual color */
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    width: 80%;
+    border-radius: 20px 20px 0 0;
+  }
+  
+  .back-button {
+    background: none;
+    color: #61803f;
+    margin-left: 100px;
+    font-size: 3em; /* Adjust size as needed */
+    cursor: pointer;
+  }
+  
+  .headerr h1 {
+    width: 100%; /* Ensure full width */
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 2.4em; /* Adjust size as needed */
+    color: #5C623D; /* Adjust to match your design */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 5px;
+  }
+  
+  .Issue{
+    color: black; /* Adjust to match your design */
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .Where{
+    color: black; /* Adjust to match your design */
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .Contacted{
+    color: black; /* Adjust to match your design */
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .Attach{
+    font-size: 2em;
+  }
+  textarea, input[type="search"], input[type="file"] {
+    margin-bottom: 0.6em;
+    height: 120px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid #ccc; /* Use a softer border color */
+    border-radius: 0.5em;
+    font-size: 2em; /* Adjust size as needed */
+  }
+  textarea::placeholder{
+    color: #000000;
+    opacity: 0.15;
+  }
+  input::placeholder{
+    color: #000000;
+    opacity: 0.15;
+  }
+  .Cancel{
+    color: #000000;
+    opacity: 0.2;
+    margin: auto;
+    font-size: 2em;
+    padding-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  /* Style for the radio button container */
+  .radio-group {
+    display: flex;
+    margin-bottom: 10em;
+    padding: 5px;
+  }
+  .Yess{
+    font-size: 30px;
+  }
+  /* Styles for the radio buttons and associated labels */
+  .radio-group input[type="radio"] {
+    margin-right: 0.5em;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: none;
+    border: 4px solid #4D4C4C;
+  }
+  .radio-group input[type="radio"] ::before{
+    content: '';
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+  }
+  .radio-group input[type="radio"]:checked {
+    border-color:#4D4C4C;
+    color: #4D4C4C;
+  }
+  
+  .radio-group label {
+    margin-right: 1em;
+  }
+  
+  .submit-button {
+    background-color: rgb(206, 236, 191); /* Button color */
+    color: black;
+    width: 40%;
+    border: none;
+    padding: 0.8em;
+    margin: auto;
+    border-radius: 0.5em;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 2em; /* Adjust size as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow to the button */
+  }
+  
+  /* Additional styles for better alignment and spacing */
+  textarea {
+    height: 260px; /* Adjust height as needed */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  input[type="file"] {
+    cursor: pointer;
+  }
+  
+  /* Hide the default file input style and create a custom button */
+  input[type="file"] {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    z-index: -1;
+  }
+  
+  input[type="file"] + label {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 2.2em; /* Adjust size as needed */
+    cursor: pointer;
+  }
+  
+  input[type="file"] + label:hover {
+    background-color: #e1e1e1;
+  }
+  
+  /* Customize radio buttons */
+  /* .radio-group input[type="radio"] {
+    display: none; /* Hide the default radio button *
+  }
+  
+  .radio-group input[type="radio"] + label {
+    padding: 0.5em 1em;
+    border: 2px solid #ccc;
+    border-radius: 1em;
+    display: inline-block;
+    margin-right: 0.5em;
+    cursor: pointer;
+  }
+  
+  .radio-group input[type="radio"]:checked + label {
+    background-color: #ccc;
+    color: white;
+  }
+   */
+  /* Ensuring the form elements are not too wide on larger screens */
+  @media (min-width: 768px) {
+    .create-report {
+        width: 100%; /* Adjust as per the design constraints */
+      height: 100%;
+    }
+  }
+  

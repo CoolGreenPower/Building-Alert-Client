@@ -1,0 +1,99 @@
+
+  .signup__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff; /* Assuming a white background */
+    font-family: 'Arial', sans-serif; /* This should be your desired font */
+  }
+  
+  .signup h5 {
+    font-size: 5em; /* Large text for the main heading */
+    font-weight: bold;
+    color: #5C623D;
+    align-items: flex-start;
+  }
+  .app_name1 {
+    font-size: 5em; /* Large text for the main heading */
+    margin-bottom: 1.5em;
+    font-weight: bold;
+    color: #5C623D;
+  }
+  .signup__box {
+    width: 80%; /* Or a fixed width, depending on your design */ /* Ensures the box doesn't get too wide on larger screens */
+    margin-top: 20%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .signup p {
+    font-size: 2.55em; /* Smaller text for the subheading */
+  color: #6d7955; /* A grey for subtext */
+  margin-bottom: 4em;
+  }
+  
+.signup__box > button{
+  width: 60%;
+  padding: 15px;
+  margin-bottom: 1em;
+  margin-top: 2em;
+  margin-left: 20%;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  background-color: #C4D5C5;/* Adjust to your theme color */
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+  font-family: 'Arial', sans-serif;
+  cursor: pointer;
+}
+
+.signup__box > button:hover{
+  background-color: #C4D5C5;
+    opacity: 0.8;
+}
+
+.signup__box > input{
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(88, 88, 88);
+  padding: 15px;
+  margin-bottom: 1.2em; /* Space between input fields */
+  font-size: 2.5em;
+}
+
+.signup__box2{
+    padding:20px 35px;
+    margin-top: 10px;
+    border:1px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signup__link{
+    text-decoration: none !important;
+}
+
+.app_name{
+    color: #07502d;
+    font-size: 30px;
+    font-weight: bold;
+    /* margin-bottom: 60px; */
+}
+
+.signup__box2 > h6{
+  color: #07502d !important;
+}
+.cancel-button {
+  align-self: center;
+  font-size: 2em;
+  color: #CCCCCC;/* Theme color for the cancel button */
+  margin-bottom: 100px;
+  text-decoration: underline;
+  cursor: pointer;
+}

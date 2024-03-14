@@ -1,0 +1,231 @@
+/* .signin {
+  background-color: rgb(250, 250, 250);
+  height: 100vh;
+
+  display: grid;
+  place-items: center;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.signin__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  /* max-width to prevent form from being too wide on large screens */
+  /*width: 100%;
+  /* make form take up full width on small screens */
+  /*margin: 0 auto;
+  /* center form on page 
+} */
+
+/* .signin__box {
+  padding: 25px;
+  /* border: 1px solid lightgray; 
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.signin__img {
+  object-fit: contain;
+  cursor: pointer;
+  max-width: 100%;
+  max-height: 100%;
+  padding: inherit;
+  margin-bottom: 20px;
+}
+
+.signin__box>button {
+  margin-top: 20px;
+  text-transform: inherit !important;
+  padding: 15px 50px;
+  outline-width: 0;
+  background-color: #07502d;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.signin__box>button:hover {
+  background-color: #07502d;
+  opacity: 0.8;
+}
+
+.signin__box>input {
+  width: 250px;
+  padding: 3px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  outline-width: 0;
+  border: 1px solid #a88734;
+  background-color: white;
+}
+
+.signin__box2 {
+  padding: 20px 35px;
+  margin-top: 10px;
+  /* border:1px solid lightgray; */
+  /* background-color: white; 
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.signin__link {
+  text-decoration: none !important;
+}
+
+.app_name {
+  color: #07502d;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.signin__box2>h6 {
+  color: #07502d !important;
+}
+
+@media all and (min-width: 600px) {
+  .signin {
+    padding: 60px 0;
+  }
+
+  .signin__form {
+    margin: 0 auto;
+    max-width: 350px;
+  }
+} */
+/* Signin.css */
+/* Signin.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif; /* You can change the font family */
+  background-color: white; /* Adjust the background color to match the design */
+}
+
+/* Full-screen container */
+.signin-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Aligns children to the start of the flex container */
+  box-sizing: border-box;
+  margin-top: 30%;
+  max-height: fit-content;
+}
+
+/* Logo styles */
+/* .signin-logo {
+  margin-bottom: 2rem; /* Increase spacing 
+  text-align: center;
+} */
+.signin-logo {
+  text-align: center;
+  justify-content: center;
+  width: 70%; /* Adjust this value as needed to push the logo to the desired position */
+  margin-bottom: 250px;
+}
+.signin-logo h1 {
+  font-size: 5rem; /* Larger logo text */
+  color: #4a4a4a; /* Color of 'myBuilding' text */
+  margin: 0;
+  color: #1f6404;
+}
+
+.signin-logo p {
+  font-size: 1.5rem; /* Larger subtext */
+  color: #4a4a4a; /* Color of 'ALERTS' text */
+  margin: 0;
+  color: #1f6404;
+}
+
+/* Button styles */
+.btn {
+  display: block;
+  width: 100%;
+  padding: 1.5rem; /* Increased padding for larger buttons */
+  margin: 2rem 0; /* Increase margin to space out buttons */
+  font-size: 1.5rem; /* Larger font size for button text */
+  border-radius: 1rem; /* Rounded corners for buttons */
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.btn-primary {
+  background-color: #6c7d47; /* Adjust the color to match the design */
+  color: white;
+  font-size: 35px;
+}
+
+.btn-primary:hover {
+  background-color: #5a693a; /* Slightly darker on hover */
+}
+
+/* Outline button */
+.btn-outline-primary {
+  background-color: white;
+  color: #6c7d47; /* Adjust the color to match the design */
+  border: 2px solid #6c7d47;
+  font-size: 35px;;
+}
+
+.btn-outline-primary:hover {
+  background-color: white; 
+  color: #6c7d47;
+}
+
+/* Link-like button */
+.guest-issue {
+  background: none;
+  color: #6c7d47; /* Adjust the color to match the design */
+  padding: 0.5rem 0; /* Slightly larger padding */
+  font-size: 1.5rem; /* Larger font size for link-like text */
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.guest-issue:hover {
+  color: #5a693a; /* Slightly darker on hover */
+}
+
+/* Adjust the width of buttons container */
+.signin-buttons {
+  width: 90%; /* Wider container for buttons */
+  max-width: 400px; /* Increased max-width */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .signin-logo h1 {
+    font-size: 2rem;
+  }
+
+  .signin-logo p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .guest-issue {
+    font-size: 1rem;
+  }
+}
