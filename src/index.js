@@ -92,7 +92,6 @@ import Signup from './components/Signup';
 import ResetPassword from './components/ResetPassword';
 import Guest from './components/Guest';
 import Login from './components/Login';
-import swDev from './swDev';
 
 // New component
 const HomeRedirect = () => {
