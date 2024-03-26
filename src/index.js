@@ -76,8 +76,6 @@
 // );
 
 // swDev();
-
-const React = require('react');
 import ReactDOM from 'react-dom';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -92,7 +90,7 @@ import Signup from './components/Signup';
 import ResetPassword from './components/ResetPassword';
 import Guest from './components/Guest';
 import Login from './components/Login';
-
+const React = require('react');
 // New component
 const HomeRedirect = () => {
   const history = useHistory();
