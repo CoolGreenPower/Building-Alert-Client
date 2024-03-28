@@ -105,7 +105,7 @@ const HomeRedirect = () => {
     return null;
   } else {
     console.log("This is signin");
-    return <Signin />;
+    return <Signin/>;
   }
 }
 
