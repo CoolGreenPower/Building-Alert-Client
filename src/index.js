@@ -80,16 +80,16 @@ const ReactDOM = require('react-dom');
 require('./index.css');
 require('bootstrap/dist/css/bootstrap.min.css');
 const { BrowserRouter: Router, Switch, Route, useHistory } = require('react-router-dom');
-const Routes = require('./components/Routes');
+const Routes = require('./components/Routes.js');
 const { Provider } = require('react-redux');
-const store = require('./store/store');
+const store = require('./store/store.js');
 const swDev = require('./swDev.js');
-const Dashboard = require('./components/Dashboard/Dashboard');
-const Signin = require('./components/Signin');
-const Signup = require('./components/Signup');
-const ResetPassword = require('./components/ResetPassword');
-const Guest = require('./components/Guest');
-const Login = require('./components/Login');
+const Dashboard = require('./components/Dashboard/Dashboard.js');
+const Signin = require('./components/Signin.js');
+const Signup = require('./components/Signup.js');
+const ResetPassword = require('./components/ResetPassword.js');
+const Guest = require('./components/Guest.js');
+const Login = require('./components/Login.js');
 // New component
 const HomeRedirect = () => {
   const history = useHistory();
