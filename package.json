@@ -52,6 +52,9 @@
     "heroku-postbuild": "npm run build",
     "postinstall": "patch-package"
   },
+  "engines": {
+    "node": "16.0.0"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
