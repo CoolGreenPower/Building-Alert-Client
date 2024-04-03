@@ -80,7 +80,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route, useHistory } from 'react-router-dom';
-import Routes from './components/Routes';
+import Routes from './components/Routes.js';
 import { Provider } from 'react-redux';
 import store from './store/store';
 import swDev from './swDev.js';
