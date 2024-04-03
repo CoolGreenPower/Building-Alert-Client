@@ -76,20 +76,21 @@
 // );
 
 // swDev();
-import ReactDOM from 'react-dom';
-import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Switch, Route, useHistory } from 'react-router-dom';
-import Routes from './components/Routes.js';
-import { Provider } from 'react-redux';
-import store from './store/store.js';
-import swDev from './swDev.js';
-import Dashboard from './components/Dashboard/Dashboard.js';
-import Signin from './components/Signin.js';
-import Signup from './components/Signup.js';
-import ResetPassword from './components/ResetPassword.js';
-import Guest from './components/Guest.js';
-import Login from './components/Login.js';
+const ReactDOM = require('react-dom');
+require('./index.css');
+require('bootstrap/dist/css/bootstrap.min.css');
+const { BrowserRouter: Router, Switch, Route, useHistory } = require('react-router-dom');
+const Routes = require('./components/Routes');
+const { Provider } = require('react-redux');
+const store = require('./store/store');
+const swDev = require('./swDev.js');
+const Dashboard = require('./components/Dashboard/Dashboard');
+const Signin = require('./components/Signin');
+const Signup = require('./components/Signup');
+const ResetPassword = require('./components/ResetPassword');
+const Guest = require('./components/Guest');
+const Login = require('./components/Login');
+
 // New component
 const HomeRedirect = () => {
   const history = useHistory();
@@ -120,7 +121,6 @@ ReactDOM.render(
         <Route exact={true} path="/guest" component={Guest} />
         <Route path="/dashboard" component={Dashboard}/>
         {<Dashboard /> /*important line */}
-        <Routes />
       </Switch>
     </Router>
   </Provider>
