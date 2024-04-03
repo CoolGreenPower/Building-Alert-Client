@@ -121,6 +121,7 @@ ReactDOM.render(
         <Route exact={true} path="/guest" component={Guest} />
         <Route path="/dashboard" component={Dashboard}/>
         {<Dashboard /> /*important line */}
+        <Routes/>
       </Switch>
     </Router>
   </Provider>
