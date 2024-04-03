@@ -85,11 +85,11 @@ import { Provider } from 'react-redux';
 import store from './store/store';
 import swDev from './swDev.js';
 import Dashboard from './components/Dashboard/Dashboard';
-import Signin from './components/Signin';
-import Signup from './components/Signup';
-import ResetPassword from './components/ResetPassword';
-import Guest from './components/Guest';
-import Login from './components/Login';
+import Signin from './components/Signin.js';
+import Signup from './components/Signup.js';
+import ResetPassword from './components/ResetPassword.js';
+import Guest from './components/Guest.js';
+import Login from './components/Login.js';
 // New component
 const HomeRedirect = () => {
   const history = useHistory();
