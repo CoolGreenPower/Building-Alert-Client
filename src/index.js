@@ -76,20 +76,20 @@
 // );
 
 // swDev();
-const ReactDOM = require('react-dom');
-require('./index.css');
-require('bootstrap/dist/css/bootstrap.min.css');
-const { BrowserRouter: Router, Switch, Route, useHistory } = require('react-router-dom');
-const Routes = require('./components/Routes.js');
-const { Provider } = require('react-redux');
-const store = require('./store/store.js');
-const swDev = require('./swDev.js');
-const Dashboard = require('./components/Dashboard/Dashboard.js');
-const Signin = require('./components/Signin.js');
-const Signup = require('./components/Signup.js');
-const ResetPassword = require('./components/ResetPassword.js');
-const Guest = require('./components/Guest.js');
-const Login = require('./components/Login.js');
+import ReactDOM from 'react-dom';
+import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Switch, Route, useHistory } from 'react-router-dom';
+import Routes from './components/Routes';
+import { Provider } from 'react-redux';
+import store from './store/store';
+import swDev from './swDev.js';
+import Dashboard from './components/Dashboard/Dashboard';
+import Signin from './components/Signin';
+import Signup from './components/Signup';
+import ResetPassword from './components/ResetPassword';
+import Guest from './components/Guest';
+import Login from './components/Login';
 // New component
 const HomeRedirect = () => {
   const history = useHistory();
